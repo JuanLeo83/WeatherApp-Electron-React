@@ -1,0 +1,49 @@
+.daysOfWeek {
+  display: flex;
+  flex-direction: row;
+}
+
+.dayOfWeek {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.day {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 3px;
+}
+
+.currentDayOfWeek {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.today {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 0px;
+
+  color: aqua;
+}
+
+.todayName {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.divider-custom {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+    color: white;
+}
